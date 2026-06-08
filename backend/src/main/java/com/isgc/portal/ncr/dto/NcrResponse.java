@@ -1,0 +1,42 @@
+package com.isgc.portal.ncr.dto;
+
+import com.isgc.portal.ncr.NcrStatus;
+import com.isgc.portal.ncr.NcrVerificationStatus;
+import java.time.Instant;
+import java.time.LocalDate;
+import java.util.List;
+import java.util.UUID;
+
+public record NcrResponse(
+    UUID id,
+    String ncrNumber,
+    LocalDate ncrDate,
+    UUID projectId,
+    String projectName,
+    String responsibleOrganization,
+    String location,
+    String title,
+    String description,
+    String evidenceReferences,
+    String proposedCorrectiveAction,
+    String executedCorrectiveAction,
+    LocalDate targetCompletionDate,
+    LocalDate completionDate,
+    List<String> rootCauseCategories,
+    NcrStatus status,
+    String initiatedBy,
+    String approvedBy,
+    String verifiedBy,
+    NcrVerificationStatus verificationStatus,
+    List<String> isoStandards,
+    boolean followupRequired,
+    String notes,
+    UUID responsibleEmployeeId,
+    String responsibleEmployeeName,
+    String classification,
+    String rootCause,
+    String preventiveAction,
+    boolean overdue,
+    Instant createdAt,
+    Instant updatedAt
+) {}

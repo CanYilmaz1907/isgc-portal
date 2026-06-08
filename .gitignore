@@ -1,0 +1,41 @@
+# Maven / Java
+backend/target/
+*.class
+*.log
+
+# IntelliJ / Eclipse
+.idea/
+*.iml
+.project
+.classpath
+.settings/
+
+# Node / Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# OS / Editor
+.DS_Store
+Thumbs.db
+
+# Env
+.env
+backend/.env
+frontend/.env
+
+# Local / temp
+*.lnk
+acc-list.json
+login-test.json
+backend/storage/
+
+# Large local data exports (keep source in Downloads)
+*.xlsx
+*.XLSX
+*.pdf
+*.docx
+*.jpg
+loglar.csv
+
+

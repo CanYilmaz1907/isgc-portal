@@ -1,0 +1,138 @@
+{
+  "direct": [
+    {"section": "ACTIONS", "groupCode": "1", "groupName": "Prosedürler - Kurallar", "items": [
+      {"code": "1-1", "label": "Bireysel ihlal"}, {"code": "1-2", "label": "Grup ihlali"}, {"code": "1-3", "label": "Süpervizör ihlali"},
+      {"code": "1-4", "label": "Yetkisi dışında ekipman kullanımı"}, {"code": "1-5", "label": "Hatalı duruş / pozisyon"},
+      {"code": "1-6", "label": "Fiziksel kapasitesinin üstünde çalışma"}, {"code": "1-7", "label": "Hızlı çalışma ya da hareket etme"},
+      {"code": "1-8", "label": "Hatalı yük kaldırma"}, {"code": "1-9", "label": "Kestirme yol kullanma"}, {"code": "1-10", "label": "Diğer"}
+    ]},
+    {"section": "ACTIONS", "groupCode": "2", "groupName": "Alet ve Ekipman Kullanımı", "items": [
+      {"code": "2-1", "label": "Ekipmanın hatalı kullanımı"}, {"code": "2-2", "label": "Arızalı ekipman kullanma"},
+      {"code": "2-3", "label": "Ekipmanın uygun olmayan hızda kullanımı"}, {"code": "2-4", "label": "Alet & Ekipmanın uygun olmayan yere konması"},
+      {"code": "2-5", "label": "Ekipmanın enerjilendirilmiş durumda temizlik & bakım ve onarımının yapılması"}, {"code": "2-6", "label": "Diğer"}
+    ]},
+    {"section": "ACTIONS", "groupCode": "3", "groupName": "Koruma Ekipmanlarının Kullanımı", "items": [
+      {"code": "3-1", "label": "Mevcut tehlikeleri bilmeme"}, {"code": "3-2", "label": "KKE kullanmama"}, {"code": "3-3", "label": "Hatalı KKE kullanma"},
+      {"code": "3-4", "label": "Enerji dolu hatta çalışma"}, {"code": "3-5", "label": "Sabitlenmemiş malzeme veya ekipman"},
+      {"code": "3-6", "label": "Hasarlı muhafaza ya da uyarı sistemi / güvenlik cihazı kullanımı"},
+      {"code": "3-7", "label": "Muhafaza, uyarı sistemi ya da güvenlik cihazının devre dışı bırakılması"},
+      {"code": "3-8", "label": "KKE mevcut değil"}, {"code": "3-9", "label": "Diğer"}
+    ]},
+    {"section": "ACTIONS", "groupCode": "4", "groupName": "Dikkat ve Farkındalık", "items": [
+      {"code": "4-1", "label": "Yanlış karar verme ya da riski değerlendirememe"}, {"code": "4-2", "label": "Konsantrasyon kaybı"},
+      {"code": "4-3", "label": "Yürürken adımına ya da etrafına dikkat etmeme"}, {"code": "4-4", "label": "Şakalaşma"},
+      {"code": "4-5", "label": "Uyarılara uymama"}, {"code": "4-6", "label": "Alkol ya da uyuşturucu kullanma"},
+      {"code": "4-7", "label": "Şiddet uygulama"}, {"code": "4-8", "label": "Düşünmeden yapılan rutin aktivite"},
+      {"code": "4-9", "label": "Reçeteli ilaç kullanma"}, {"code": "4-10", "label": "Diğer"}
+    ]},
+    {"section": "CONDITIONS", "groupCode": "5", "groupName": "Koruma Sistemleri", "items": [
+      {"code": "5-1", "label": "Uygun olmayan muhafaza ya da koruyucu cihaz"}, {"code": "5-2", "label": "Hasarlı muhafaza ya da koruyucu"},
+      {"code": "5-3", "label": "Uygun olmayan KKE"}, {"code": "5-4", "label": "Hasarlı KKE"},
+      {"code": "5-5", "label": "Uygun olmayan uyarı sistemi"}, {"code": "5-6", "label": "Hasarlı uyarı sistemi"},
+      {"code": "5-7", "label": "Ekipman ya da proses izolasyonunun yetersizliği"}, {"code": "5-8", "label": "Yetersiz güvenlik cihazı"},
+      {"code": "5-9", "label": "Hasarlı güvenlik cihazı"}, {"code": "5-10", "label": "Diğer"}
+    ]},
+    {"section": "ACTIONS", "groupCode": "6", "groupName": "Alet, Ekipman ve Araçlar", "items": [
+      {"code": "6-1", "label": "Hasarlı alet & ekipman"}, {"code": "6-2", "label": "İşe uygun olmayan alet & ekipman"},
+      {"code": "6-3", "label": "Hasarlı araç"}, {"code": "6-4", "label": "Amaca uygun olmayan araç"}, {"code": "6-5", "label": "Diğer"}
+    ]},
+    {"section": "CONDITIONS", "groupCode": "7", "groupName": "Çalışma Ortamı", "items": [
+      {"code": "7-1", "label": "Yangın ya da patlama"}, {"code": "7-2", "label": "Gürültü"}, {"code": "7-3", "label": "Enerjilendirilmiş elektrik sistemi"},
+      {"code": "7-4", "label": "Elektrik sistemi dışında enerjilendirilmiş sistem"}, {"code": "7-5", "label": "Radyasyon"},
+      {"code": "7-6", "label": "Çok sıcak / soğuk ısı derecesi"}, {"code": "7-7", "label": "Tehlikeli kimyasallar"},
+      {"code": "7-8", "label": "Mekanik tehlikeler"}, {"code": "7-9", "label": "Tertip, düzen & temizlik eksikliği"},
+      {"code": "7-10", "label": "Doğal tehlikeler (fırtına ya da doğa olayları)"},
+      {"code": "7-11", "label": "Yürüme yollarının kaygan olması"}, {"code": "7-12", "label": "Diğer"}
+    ]},
+    {"section": "CONDITIONS", "groupCode": "8", "groupName": "Çalışma Düzeni", "items": [
+      {"code": "8-1", "label": "Kalabalık ya da kısıtlı hareket"}, {"code": "8-2", "label": "Yetersiz ya da aşırı ışık"},
+      {"code": "8-3", "label": "Yetersiz havalandırma"}, {"code": "8-4", "label": "Korumasız yükseklik"},
+      {"code": "8-5", "label": "Yetersiz çalışma ortamı"}, {"code": "8-6", "label": "Diğer"}
+    ]}
+  ],
+  "root": [
+    {"section": "PERSONAL", "groupCode": "1", "groupName": "Fiziksel Yeterlilik", "items": [
+      {"code": "1-1", "label": "Görme noksanlığı"}, {"code": "1-2", "label": "Duyma noksanlığı"}, {"code": "1-3", "label": "Solunum yetersizliği"},
+      {"code": "1-4", "label": "Diğer kalıcı fiziksel sakatlık"}, {"code": "1-5", "label": "Geçici sakatlık"},
+      {"code": "1-6", "label": "Aynı pozisyonu sürdürme yetersizliği"}, {"code": "1-7", "label": "Kısıtlı derecede vücut hareketi"},
+      {"code": "1-8", "label": "Maddeye karşı hassasiyet"}, {"code": "1-9", "label": "Fiziksel olarak işe uygun olmaması"},
+      {"code": "1-10", "label": "İlaç kaynaklı kapasite düşüklüğü"}, {"code": "1-11", "label": "Diğer"}
+    ]},
+    {"section": "PERSONAL", "groupCode": "2", "groupName": "Fiziksel Durum", "items": [
+      {"code": "2-1", "label": "Mevcut yaralanma ya da hastalık durumu"}, {"code": "2-2", "label": "Aşırı yorgunluk"},
+      {"code": "2-3", "label": "Aşırı iş yükü"}, {"code": "2-4", "label": "Alkol ya da uyuşturucu kullanımından dolayı konsantrasyon bozukluğu"},
+      {"code": "2-5", "label": "Diğer"}
+    ]},
+    {"section": "PERSONAL", "groupCode": "3", "groupName": "Davranış", "items": [
+      {"code": "3-1", "label": "Yönetimin örnek teşkil etmemesi"}, {"code": "3-2", "label": "Güvenli davranışta bulunmanın teşvik edilmemesi"},
+      {"code": "3-3", "label": "Süpervizör tarafından acele ettirilmesi"}, {"code": "3-4", "label": "Çalışanın acele etmesi gerektiğini düşünmesi"},
+      {"code": "3-5", "label": "Diğer"}
+    ]},
+    {"section": "PERSONAL", "groupCode": "4", "groupName": "Beceri Düzeyi", "items": [
+      {"code": "4-1", "label": "Gerekli becerilerin olup olmadığının değerlendirilmemesi"},
+      {"code": "4-2", "label": "Pratik uygulama eksikliği"}, {"code": "4-3", "label": "Becerilerin kontrol edilmemesi"},
+      {"code": "4-4", "label": "Diğer"}
+    ]},
+    {"section": "PERSONAL", "groupCode": "5", "groupName": "Diğer Kişisel Faktörler", "items": [
+      {"code": "5-1", "label": "Düşük muhakeme yeteneği"}, {"code": "5-2", "label": "Hafıza kaybı"}, {"code": "5-3", "label": "Tepki ve koordinasyon zayıflığı"},
+      {"code": "5-4", "label": "Duygusal sıkıntı"}, {"code": "5-5", "label": "Korku ve fobi"}, {"code": "5-6", "label": "Problemlerden dolayı zihnin meşguliyeti"},
+      {"code": "5-7", "label": "Talimatların / taleplerin karışması"}, {"code": "5-8", "label": "Talimatların / taleplerin uyuşmaması"},
+      {"code": "5-9", "label": "Hayal kırıklığı"}, {"code": "5-10", "label": "Zayıf öğrenme yeteneği"},
+      {"code": "5-11", "label": "Duygusal yorgunluk"}, {"code": "5-12", "label": "Konsantrasyon eksikliği"},
+      {"code": "5-13", "label": "Aşırı sıkılma"}, {"code": "5-14", "label": "Diğer"}
+    ]},
+    {"section": "JOB", "groupCode": "6", "groupName": "Eğitim - Bilgi", "items": [
+      {"code": "6-1", "label": "Eğitimin pratikte uygulanmaması"}, {"code": "6-2", "label": "Gerekli eğitimlerin sağlanmaması"},
+      {"code": "6-3", "label": "Eğitim ihtiyaç analizinin yapılmaması"}, {"code": "6-4", "label": "Yapılan iş için eğitim verilmemesine karar verilmesi"},
+      {"code": "6-5", "label": "Eğitim içeriğinin etkin olmaması"}, {"code": "6-6", "label": "Hiçbir eğitim sağlanmaması"},
+      {"code": "6-7", "label": "Eğitimin yinelenmemesi"}, {"code": "6-8", "label": "Diğer"}
+    ]},
+    {"section": "JOB", "groupCode": "7", "groupName": "Liderlik", "items": [
+      {"code": "7-1", "label": "Rol / sorumlulukların çakışması"}, {"code": "7-2", "label": "Yönetim İSG liderliğinin etkin olmaması"},
+      {"code": "7-3", "label": "Daha önceki kaza / tehlikelerin düzeltilmemesi"}, {"code": "7-4", "label": "Tehlikelerin belirlenmemesi"},
+      {"code": "7-5", "label": "Değişim yönetiminin zayıflığı"}, {"code": "7-6", "label": "İSG toplantılarının eksikliği"},
+      {"code": "7-7", "label": "Performans ölçme ve izlemenin zayıflığı"}, {"code": "7-8", "label": "Kaza araştırma / raporlama sisteminin zayıflığı"},
+      {"code": "7-9", "label": "Diğer"}
+    ]},
+    {"section": "JOB", "groupCode": "8", "groupName": "Taşeron Seçimi ve Yönetimi", "items": [
+      {"code": "8-1", "label": "Taşeron kalifikasyon yetersizliği"}, {"code": "8-2", "label": "Taşeron seçim zayıflığı"},
+      {"code": "8-3", "label": "Onaylanmamış taşeronla çalışma"}, {"code": "8-4", "label": "Taşeron yönetim zayıflığı"},
+      {"code": "8-5", "label": "Diğer"}
+    ]},
+    {"section": "JOB", "groupCode": "9", "groupName": "Mühendislik - Dizayn", "items": [
+      {"code": "9-1", "label": "Teknik dizayn hatası"}, {"code": "9-2", "label": "Ergonomik dizayn hatası"},
+      {"code": "9-3", "label": "Standart & spesifikasyon ya da dizayn kriterlerinin yetersizliği"},
+      {"code": "9-4", "label": "Olası sistem hatalarının değerlendirilmemesi"}, {"code": "9-5", "label": "Diğer"}
+    ]},
+    {"section": "JOB", "groupCode": "10", "groupName": "İş Planlama", "items": [
+      {"code": "10-1", "label": "Yetersiz iş planlaması"}, {"code": "10-2", "label": "Koruyucu bakım & onarım yetersizliği"},
+      {"code": "10-3", "label": "Kullanılan malzeme & ekipmanın aşırı yıpranması"}, {"code": "10-4", "label": "Denetim / odit / kontrol yetersizliği"},
+      {"code": "10-5", "label": "Risk değerlendirmesi yapılmaması"}, {"code": "10-6", "label": "Yetersiz risk değerlendirmesi"},
+      {"code": "10-7", "label": "Diğer"}
+    ]},
+    {"section": "JOB", "groupCode": "11", "groupName": "Satın Alma ve Malzeme Kontrol", "items": [
+      {"code": "11-1", "label": "Yanlış malzeme satın alınması"}, {"code": "11-2", "label": "Malzemenin hatalı taşınması"},
+      {"code": "11-3", "label": "Malzemenin hatalı depolanması"}, {"code": "11-4", "label": "Malzeme güvenlik bilgi formunun (MSDS) kullanılmaması"},
+      {"code": "11-5", "label": "Diğer"}
+    ]},
+    {"section": "JOB", "groupCode": "12", "groupName": "Alet ve Ekipman", "items": [
+      {"code": "12-1", "label": "İhtiyaç & risk değerlendirme yetersizliği"}, {"code": "12-2", "label": "İnsan faktör yetersizliği"},
+      {"code": "12-3", "label": "Ekipman kayıtlarının olmaması"}, {"code": "12-4", "label": "Bakım / onarım yetersizliği"},
+      {"code": "12-5", "label": "Diğer"}
+    ]},
+    {"section": "JOB", "groupCode": "13", "groupName": "Çalışma Politikası, Standartlar ve Prosedürler", "items": [
+      {"code": "13-1", "label": "İşe uygun prosedür olmaması"}, {"code": "13-2", "label": "PSP'lerin geliştirilmemesi"},
+      {"code": "13-3", "label": "PSP'yi kullanmanın zor olması"}, {"code": "13-4", "label": "PSP'lerin iletişim eksikliği"},
+      {"code": "13-5", "label": "Diğer"}
+    ]},
+    {"section": "JOB", "groupCode": "14", "groupName": "İletişim", "items": [
+      {"code": "14-1", "label": "İletişim sisteminin etkin olmaması"}, {"code": "14-2", "label": "Geç iletişim kurulması"},
+      {"code": "14-3", "label": "Çalışanlar arasında yatay iletişim eksikliği"}, {"code": "14-4", "label": "Çalışan ve süpervizör arasında düşey iletişim eksikliği"},
+      {"code": "14-5", "label": "Farklı şirketler arasında iletişim eksikliği"}, {"code": "14-6", "label": "Çalışma grupları arasında iletişim eksikliği"},
+      {"code": "14-7", "label": "Vardiya ya da personel değişimi arasında iletişim eksikliği"},
+      {"code": "14-8", "label": "Sözlü iletişimin yanlış anlaşılması"}, {"code": "14-9", "label": "Standart terminolojinin kullanılmaması"},
+      {"code": "14-10", "label": "İSG veri, bilgi, yasa ve rehberlerin iletişim eksikliği"},
+      {"code": "14-11", "label": "Diğer"}
+    ]}
+  ]
+}

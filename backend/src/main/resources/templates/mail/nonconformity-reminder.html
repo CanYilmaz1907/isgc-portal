@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <body style="font-family: Arial, sans-serif; line-height: 1.4">
+    <h2 style="margin: 0 0 8px 0">Uygunsuzluk Hatırlatma</h2>
+    <p style="margin: 0 0 12px 0">
+      Açık uygunsuzluk kaydı için hatırlatmadır.
+    </p>
+
+    <table cellpadding="6" cellspacing="0" border="0" style="border-collapse: collapse; width: 100%">
+      <tr>
+        <td style="border: 1px solid #ddd; width: 220px"><b>Başlık</b></td>
+        <td style="border: 1px solid #ddd" th:text="${title}">-</td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid #ddd"><b>Proje</b></td>
+        <td style="border: 1px solid #ddd" th:text="${projectName}">-</td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid #ddd"><b>Durum</b></td>
+        <td style="border: 1px solid #ddd" th:text="${status}">-</td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid #ddd"><b>Termin</b></td>
+        <td style="border: 1px solid #ddd" th:text="${dueDate}">-</td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid #ddd"><b>Açıklama</b></td>
+        <td style="border: 1px solid #ddd" th:text="${description}">-</td>
+      </tr>
+    </table>
+
+    <p style="margin-top: 12px; color: #666">
+      Bu e-posta ISG-C Portal tarafından otomatik gönderilmiştir.
+    </p>
+  </body>
+</html>
+
+

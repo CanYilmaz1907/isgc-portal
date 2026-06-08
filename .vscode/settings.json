@@ -1,0 +1,13 @@
+{
+  "java.import.maven.enabled": true,
+  "java.import.gradle.enabled": false,
+  "java.configuration.updateBuildConfiguration": "automatic",
+  "java.import.exclusions": [
+    "**/frontend/**",
+    "**/node_modules/**"
+  ],
+  "java.project.importOnFirstTimeStartup": "automatic",
+  "java.import.maven.projectPaths": [
+    "backend/pom.xml"
+  ]
+}

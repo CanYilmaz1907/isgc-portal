@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <body style="font-family: Arial, sans-serif; line-height: 1.4">
+    <h2 style="margin: 0 0 8px 0">Disiplin Logu Bilgilendirme</h2>
+    <p style="margin: 0 0 12px 0">
+      Disiplin log kaydı oluşturuldu / hatırlatma.
+    </p>
+
+    <table cellpadding="6" cellspacing="0" border="0" style="border-collapse: collapse; width: 100%">
+      <tr>
+        <td style="border: 1px solid #ddd; width: 220px"><b>Çalışan</b></td>
+        <td style="border: 1px solid #ddd" th:text="${employeeName}">-</td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid #ddd"><b>Birincil Yönetici</b></td>
+        <td style="border: 1px solid #ddd" th:text="${managerName}">-</td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid #ddd"><b>Kategori</b></td>
+        <td style="border: 1px solid #ddd" th:text="${category}">-</td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid #ddd"><b>Seviye</b></td>
+        <td style="border: 1px solid #ddd" th:text="${severity}">-</td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid #ddd"><b>Açıklama</b></td>
+        <td style="border: 1px solid #ddd" th:text="${description}">-</td>
+      </tr>
+    </table>
+
+    <p style="margin-top: 12px; color: #666">
+      Bu e-posta ISG-C Portal tarafından otomatik gönderilmiştir.
+    </p>
+  </body>
+</html>
+
+

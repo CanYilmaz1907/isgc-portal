@@ -1,0 +1,69 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: isgc-portal
+  datasource:
+    url: jdbc:postgresql://localhost:5432/isgc_portal
+    username: postgres
+    password: 1234
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: none
+    properties:
+      hibernate:
+        format_sql: true
+        jdbc:
+          time_zone: UTC
+    open-in-view: false
+  flyway:
+    enabled: true
+    locations: classpath:db/migration
+    baselineOnMigrate: true
+    baselineVersion: 0
+    repairOnMigrate: true
+    validateOnMigrate: false
+  mail:
+    host: ${ISGC_SMTP_HOST:localhost}
+    port: ${ISGC_SMTP_PORT:1025}
+    username: ${ISGC_SMTP_USERNAME:}
+    password: ${ISGC_SMTP_PASSWORD:}
+    properties:
+      mail:
+        smtp:
+          auth: ${ISGC_SMTP_AUTH:false}
+          starttls:
+            enable: ${ISGC_SMTP_STARTTLS:false}
+  servlet:
+    multipart:
+      max-file-size: 20MB
+      max-request-size: 25MB
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info
+  health:
+    mail:
+      enabled: false
+
+logging:
+  level:
+    org.springframework.security: INFO
+    com.isgc.portal: DEBUG
+
+isgc:
+  security:
+    jwt:
+      issuer: isgc-portal
+      accessTokenMinutes: 15
+      refreshTokenDays: 14
+      secret: ${ISGC_JWT_SECRET:change-me-in-prod-change-me-in-prod-change-me-in-prod}
+  files:
+    storageRoot: ${ISGC_STORAGE_ROOT:./storage}
+  mail:
+    from: ${ISGC_MAIL_FROM:no-reply@isgc.local}
+    managementCc: ${ISGC_MAIL_MANAGEMENT_CC:}

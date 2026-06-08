@@ -1,0 +1,3 @@
+ALTER TABLE audit_item_results
+  ADD COLUMN IF NOT EXISTS applicable BOOLEAN NOT NULL DEFAULT true;
+

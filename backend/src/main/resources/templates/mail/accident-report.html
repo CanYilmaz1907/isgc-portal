@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <body style="font-family: Arial, sans-serif; line-height: 1.4">
+    <h2 style="margin: 0 0 8px 0">Kaza Raporu</h2>
+    <p style="margin: 0 0 12px 0" th:text="${subtitle}">-</p>
+
+    <h3 style="margin: 12px 0 8px 0">Dağılım</h3>
+    <table cellpadding="6" cellspacing="0" border="0" style="border-collapse: collapse; width: 100%">
+      <tr>
+        <td style="border: 1px solid #ddd; width: 220px"><b>Kaza Sınıfı</b></td>
+        <td style="border: 1px solid #ddd" th:text="${byClass}">-</td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid #ddd"><b>Potansiyel</b></td>
+        <td style="border: 1px solid #ddd" th:text="${byPotential}">-</td>
+      </tr>
+    </table>
+
+    <p style="margin-top: 12px; color: #666">
+      Bu e-posta ISG-C Portal tarafından otomatik gönderilmiştir.
+    </p>
+  </body>
+</html>
+
+

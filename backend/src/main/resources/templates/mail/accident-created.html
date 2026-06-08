@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <body style="font-family: Arial, sans-serif; line-height: 1.4">
+    <h2 style="margin: 0 0 8px 0">Kaza Bildirimi</h2>
+    <p style="margin: 0 0 12px 0">
+      Yeni bir kaza raporu oluşturuldu.
+    </p>
+
+    <table cellpadding="6" cellspacing="0" border="0" style="border-collapse: collapse; width: 100%">
+      <tr>
+        <td style="border: 1px solid #ddd; width: 220px"><b>Proje</b></td>
+        <td style="border: 1px solid #ddd" th:text="${projectName}">-</td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid #ddd"><b>Kaza Tipi</b></td>
+        <td style="border: 1px solid #ddd" th:text="${accidentTypeName}">-</td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid #ddd"><b>Kaza Sınıfı</b></td>
+        <td style="border: 1px solid #ddd" th:text="${accidentClass}">-</td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid #ddd"><b>Potansiyel Seviye</b></td>
+        <td style="border: 1px solid #ddd" th:text="${potentialLevel}">-</td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid #ddd"><b>Lokasyon</b></td>
+        <td style="border: 1px solid #ddd" th:text="${location}">-</td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid #ddd"><b>Açıklama</b></td>
+        <td style="border: 1px solid #ddd" th:text="${description}">-</td>
+      </tr>
+    </table>
+
+    <p style="margin-top: 12px; color: #666">
+      Bu e-posta ISG-C Portal tarafından otomatik gönderilmiştir.
+    </p>
+  </body>
+</html>
+
+
